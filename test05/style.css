@@ -1,0 +1,96 @@
+/* ===== 全站基本設定 ===== */
+body {
+    margin: 0;
+    font-family: "Arial", "微軟正黑體", sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* ===== 導覽列 ===== */
+nav {
+    background-color: #3b2f2f; /* 咖啡色系 */
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== 主要內容區塊 ===== */
+.container {
+    background-color: #ffffff;
+    margin: 40px auto;
+    padding: 40px;
+    width: 80%;
+    max-width: 900px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* ===== LOGO ===== */
+.logo {
+    width: 180px;
+    margin-bottom: 20px;
+    border-radius: 50%; /* 圓形 LOGO */
+}
+
+/* ===== 標題與文字 ===== */
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 22px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* ===== 特色介紹頁用 ===== */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 300px;
+}
+
+.feature img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.feature h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+/* ===== 關於我們頁用 ===== */
+ul {
+    text-align: left;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.8;
+}
